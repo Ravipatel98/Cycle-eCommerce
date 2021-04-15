@@ -1,0 +1,627 @@
+
+/*css for body*/
+body{
+    background-color: bisque;
+}
+
+/*css for header*/
+#header{
+    min-height: 38px;
+    height: auto;
+    width: 100%;
+}
+
+/*css for footer*/
+#footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 20%;
+}
+
+/*#footer-shop{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 20%;
+}
+
+#index-footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 20%;
+}*/
+.content{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial, sans-serif;
+  }
+
+  .content > img{
+    max-height: 300px;
+    width: 100px;
+    height: 200px;  
+  }
+
+  .price {
+    color: grey;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .content button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(15, 115, 228);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+.row {
+    margin: 8px -16px;
+    min-height: 1000px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+
+/*footer css for register page*/
+#register-footer{
+    bottom: 0;
+    position: inherit;
+    width: 100%;
+    height: 20%;
+}
+
+/*css for index page*/
+#logo {
+    height: 38px;
+}
+
+.advertisement{
+    position: fixed;
+    align-self: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+.mySlides {
+    display:none;
+    height: 400px; 
+    margin-top: 10px;
+}
+
+h2{
+    text-align: center;
+    color: #ff3465;
+}
+
+double-price-border{
+    border: none;
+}
+
+.advertising{
+    width:100%;
+    height:100%;
+}
+
+#advertise {
+    width: 50%;
+    height: 100%;
+    margin-left: 26%;
+    margin-right: 24%;
+}
+
+.my-slide-border{
+    border: solid red 5px;
+}
+
+.mySlide-pic{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+}
+
+.price-tag {
+    margin-left: 44.6%;
+    margin-right: 40%;
+    margin-bottom: 5px;
+}
+
+next-previous{
+    position: fixed;
+}
+
+.form{
+    width: 80%;
+}
+
+.data{
+    padding: 0px;
+    width: 30%;
+}
+
+/*css for common forms error message*/
+.error{
+    color: #FF0000;
+    padding: 0px;
+}
+
+/*css for orders tables*/ 
+#t01 {
+    width:100%; 
+    border: 1px solid;
+}
+#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.color-red {
+    color: red;
+}
+
+.color-orange {
+    color: orange;
+}
+
+.color-green {
+    color: green;
+}
+
+.color-print{
+    background-color: white;
+}
+
+img.color-print{
+    opacity: 0.3;
+}
+
+/*css for download cheetsheet*/
+#download{
+    text-decoration: none;
+}
+
+/*css for login logout*/
+#session{
+    float: right;
+}
+#shop {
+    border: 3px solid #f1f1f1;
+    width: 100%;
+    margin: 0 auto;
+    position: inherit;
+}
+
+#shop-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#login {
+    border: 3px solid #f1f1f1;
+    width: 55%;
+    margin: 0 auto;
+    position: inherit;
+}
+
+#login-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#button {
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 0px 0 12px 0;
+}
+
+img.avatar {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/*all css for media fix*/
+@media screen and (max-width: 300px) {
+    #footer {
+        bottom: 0;
+        position: inherit;
+        width: 100%;
+        height: 20%;
+    }
+
+    #footer-shop {
+        bottom: 0;
+        position: inherit;
+        width: 100%;
+        height: 20%;
+    }
+}
+
+@media screen and (max-width: 190px) {
+    #nav-button {
+        width: 100%;
+    }
+
+    #session{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    #session{
+        float: left;
+    }
+
+    #shop {  
+        width: 100%;
+        line-height: 1.2;
+    }
+
+    #order-placed{
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    #shop {  
+        width: 100%;
+        line-height: 1.2;
+    }
+
+    #order-placed{
+        line-height: 1;
+    }
+
+    #login {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .scroll{
+        overflow-x: scroll;
+    }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 390px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+
+    .mySlides {
+        height: 270px;
+    }
+
+    #footer-shop {
+        bottom: 0;
+
+        width: 100%;
+        height: 20%;
+    }
+
+    #shop {  
+        width: 100%;
+        line-height: 1;
+    }
+
+    #login {
+        width: 90%;
+    }
+
+    #header{
+        height: auto;
+    }
+
+    .advertisement{
+        height: auto;
+        position: fixed;
+        align-self: center;
+    }
+}
+/* Columns */
+.left-column {
+    width: 65%;
+    position: relative;
+  }
+  
+  .right-column {
+    width: 35%;
+    margin-top: 60px;
+  }
+  
+  
+  /* Left Column */
+  .left-column img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  
+  .left-column img.active {
+    opacity: 1;
+  }
+  
+  
+  /* Right Column */
+  
+  /* Product Description */
+  .product-description {
+    border-bottom: 1px solid #E1E8EE;
+    margin-bottom: 20px;
+  }
+  .product-description span {
+    font-size: 12px;
+    color: #358ED7;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .product-description h1 {
+    font-weight: 300;
+    font-size: 52px;
+    color: #43484D;
+    letter-spacing: -2px;
+  }
+  .product-description p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #86939E;
+    line-height: 24px;
+  }
+  
+  /* Product Configuration */
+  .product-color span,
+  .cable-config span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #86939E;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  
+  /* Product Color */
+  .product-color {
+    margin-bottom: 30px;
+  }
+  
+  .color-choose div {
+    display: inline-block;
+  }
+  
+  .color-choose input[type="radio"] {
+    display: none;
+  }
+  
+  .color-choose input[type="radio"] + label span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .color-choose input[type="radio"] + label span {
+    border: 2px solid #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+  }
+  
+  .color-choose input[type="radio"]#red + label span {
+    background-color: #C91524;
+  }
+  .color-choose input[type="radio"]#blue + label span {
+    background-color: #314780;
+  }
+  .color-choose input[type="radio"]#black + label span {
+    background-color: #323232;
+  }
+  
+  .color-choose input[type="radio"]:checked + label span {
+    background-image: url(images/check-icn.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  /* Cable Configuration */
+  .cable-choose {
+    margin-bottom: 20px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+  }
+  
+  .cable-choose button {
+    border: 2px solid #E1E8EE;
+    border-radius: 6px;
+    padding: 13px 20px;
+    font-size: 14px;
+    color: #5E6977;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all .5s;
+  }
+  
+  .cable-choose button:hover,
+  .cable-choose button:active,
+  .cable-choose button:focus {
+    border: 2px solid #86939E;
+    outline: none;
+  }
+  
+  .cable-config {
+    border-bottom: 1px solid #E1E8EE;
+    margin-bottom: 20px;
+  }
+  
+  .cable-config a {
+    color: #358ED7;
+    text-decoration: none;
+    font-size: 12px;
+    position: relative;
+    margin: 10px 0;
+    display: inline-block;
+  }
+  .cable-config a:before {
+    content: "?";
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 2px solid rgba(53, 142, 215, 0.5);
+    display: inline-block;
+    text-align: center;
+    line-height: 16px;
+    opacity: 0.5;
+    margin-right: 5px;
+  }
+  
+  /* Product Price */
+  .product-price {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-price span {
+    font-size: 26px;
+    font-weight: 300;
+    color: #43474D;
+    margin-right: 20px;
+  }
+  
+  .cart-btn {
+    display: inline-block;
+    background-color: #7DC855;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px 30px;
+    transition: all .5s;
+  }
+  .cart-btn:hover {
+    background-color: #64af3d;
+  }
+  
+  /* Responsive */
+  @media (max-width: 940px) {
+    .container {
+      flex-direction: column;
+      margin-top: 60px;
+    }
+  
+    .left-column,
+    .right-column {
+      width: 100%;
+    }
+  
+    .left-column img {
+      width: 300px;
+      right: 0;
+      top: -65px;
+      left: initial;
+    }
+  }
+  
+  @media (max-width: 535px) {
+    .left-column img {
+      width: 220px;
+      top: -85px;
+    }
+  }
+  
+
+  .comment-form{
+      margin-top:400px;
+  }
